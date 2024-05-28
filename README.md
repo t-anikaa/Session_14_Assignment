@@ -1,4 +1,4 @@
-[Name of rivers.csv](https://github.com/t-anikaa/Session_14_Assignment/files/15472087/Name.of.rivers.csv)# Session_14_Assignment
+# Session_14_Assignment
 **Q[1]: Select a feature collection of 5 waterbodies and add a property by using map() method. **
 
 Ans: My script begins by centering the map on a `FeatureCollection` (fc) containing five waterbodies using `Map.centerObject(fc)`, providing a focused view of the features. I then print the original `FeatureCollection` to the console with `print(fc)`, allowing me to inspect the initial data. To add a new property to each feature, I employ the `map` method, iterating over each feature (ft) in the `FeatureCollection`. Within this mapping function, I use `ft.set("Class", "Waterbody")` to assign a new property called `"Class"` with the value `"Waterbody"`. This modification is stored in a new variable, `property`. Finally, the modified `FeatureCollection` is printed using `print(property)`, enabling verification that the `"Class"` property has been successfully added to each feature. This process illustrates how to enhance the features within a `FeatureCollection` by adding new properties through mapping in Google Earth Engine.
@@ -25,6 +25,7 @@ I convert this list into a `FeatureCollection` with `var listFC = ee.FeatureColl
 
 Ans: For exporting, I used Export.table.toDrive to export the FeatureCollection as a CSV file. I specified the collection to export, provided a description, set the file format to CSV, and designated the Google Drive folder for the output file. This function configures the export and submits the task to Google Earth Engine for processing.
 ![14 3](https://github.com/t-anikaa/Session_14_Assignment/assets/161161157/0771eb52-7517-4176-9f6e-25f052bb17bc)
+CSV file:[Name of rivers.csv](https://github.com/t-anikaa/Session_14_Assignment/files/15472087/Name.of.rivers.csv)
 [Name of rivers.csv](https://github.com/t-anikaa/Session_14_Assignment/files/15472087/Name.of.rivers.csv)
 
 
