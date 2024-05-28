@@ -25,12 +25,7 @@ I convert this list into a `FeatureCollection` with `var listFC = ee.FeatureColl
 
 Ans: For exporting, I used Export.table.toDrive to export the FeatureCollection as a CSV file. I specified the collection to export, provided a description, set the file format to CSV, and designated the Google Drive folder for the output file. This function configures the export and submits the task to Google Earth Engine for processing.
 ![14 3](https://github.com/t-anikaa/Session_14_Assignment/assets/161161157/0771eb52-7517-4176-9f6e-25f052bb17bc)
-[Uploading system:index,Name,.geo
-0,Padma,"{""type"":""MultiPoint"",""coordinates"":[]}"
-1,Meghna,"{""type"":""MultiPoint"",""coordinates"":[]}"
-2,Karatoya,"{""type"":""MultiPoint"",""coordinates"":[]}"
-3,Karnaphuli,"{""type"":""MultiPoint"",""coordinates"":[]}"
-Name of rivers.csv…]()
+[Name of rivers.csv]
 
 
 *   [GEE link]( https://code.earthengine.google.com/c78dc0b8dac2db96046b1856373a181c)
