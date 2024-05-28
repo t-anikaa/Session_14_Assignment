@@ -6,6 +6,7 @@ Ans: My script begins by centering the map on a `FeatureCollection` (fc) contain
 
 *   [GEE link](https://code.earthengine.google.com/5da48407173860aeb76fe07ac81140aa)
 *   [Code link](https://github.com/t-anikaa/Session_14_Assignment/blob/main/Q%26A%5B1%5D.js)
+![14 1](https://github.com/t-anikaa/Session_14_Assignment/assets/161161157/ea06b911-9101-40ac-a6c0-9372d63360e5)
 
 
 **Q[2]: Map over a list and create a feature collection by passing null geometry to each element of that list **
@@ -16,10 +17,14 @@ I convert this list into a `FeatureCollection` with `var listFC = ee.FeatureColl
 
 *   [GEE link](https://code.earthengine.google.com/c43117fa4e180e1f697b6bbc98514efc)
 *   [Code link](https://github.com/t-anikaa/Session_14_Assignment/blob/main/Q%26A%5B2%5D.js)
+![14 2](https://github.com/t-anikaa/Session_14_Assignment/assets/161161157/70f63c99-047f-4bf0-9d7d-df858b1cf2f9)
+
+
 
 **Q[3]: Export the feature collection as CSV.**
 
 Ans: For exporting, I used Export.table.toDrive to export the FeatureCollection as a CSV file. I specified the collection to export, provided a description, set the file format to CSV, and designated the Google Drive folder for the output file. This function configures the export and submits the task to Google Earth Engine for processing.
+![14 3](https://github.com/t-anikaa/Session_14_Assignment/assets/161161157/0771eb52-7517-4176-9f6e-25f052bb17bc)
 
 
 *   [GEE link]( https://code.earthengine.google.com/c78dc0b8dac2db96046b1856373a181c)
